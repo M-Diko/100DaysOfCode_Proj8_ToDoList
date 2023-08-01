@@ -29,3 +29,8 @@ function remove(row){
     var index = row.parentNode.parentNode;
     document.getElementById("myTable").deleteRow(index.rowIndex);
 }
+
+if (window.innerWidth < 768) {
+            var viewportMetaTag = document.querySelector('meta[name="viewport"]');
+            viewportMetaTag.setAttribute('content', 'width=1024');
+        }
