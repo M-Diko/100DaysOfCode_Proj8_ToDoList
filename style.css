@@ -2,6 +2,11 @@ body {
     background-color: #c0c0c0;
 }
 
+@media (min-width: 768px) {
+            body {
+                font-size: 18px;
+            }
+        }
 img{
     border-radius: 10px;
 }
